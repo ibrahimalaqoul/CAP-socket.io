@@ -15,6 +15,10 @@ describe('testing the connection ',()=>{
     beforeAll(() => {
         consoleSpy = jest.spyOn(console, 'log').mockImplementation();
     })
+    afterAll(()=>{
+        consoleSpy.mockRestore();
+    })
+
 
   it('testing the client connection',async()=>{
         io.emit('connection',socketObj);
@@ -29,7 +33,9 @@ describe('testing the server (caps)', () => {
     beforeAll(() => {
         consoleSpy = jest.spyOn(console, 'log').mockImplementation();
     })
-
+    afterAll(()=>{
+        consoleSpy.mockRestore();
+    })
     it('pickup emiting', async () => {
         io.emit('pickup',storeName);
         await consoleSpy();
