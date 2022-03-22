@@ -1,15 +1,13 @@
-
 {
   "scripts": {
     "test": "jest --forceExit"
   },
-
-  
   "devDependencies": {
     "@faker-js/faker": "^6.0.0",
-    "jest": "^27.5.1",
     "socket.io": "^4.4.1",
     "socket.io-client": "^4.4.1"
-    }
-  
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
