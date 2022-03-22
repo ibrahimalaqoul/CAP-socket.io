@@ -1,5 +1,5 @@
 'use strict';
-const port = 3000;
+const port =  process.env.PORT || 3000;
 const io = require('socket.io')(port);
 const { faker } = require('@faker-js/faker');
 
