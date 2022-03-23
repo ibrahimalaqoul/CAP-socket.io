@@ -2,7 +2,8 @@
   "devDependencies": {
     "@faker-js/faker": "^6.0.0",
     "jest": "^27.5.1",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
   },
   "scripts": {
     "test": "jest --forceExit"
