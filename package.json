@@ -212,7 +212,6 @@
     "signal-exit": "^3.0.7",
     "sisteransi": "^1.0.5",
     "slash": "^3.0.0",
-    "socket.io": "^4.4.1",
     "socket.io-adapter": "^2.3.3",
     "socket.io-parser": "^4.0.4",
     "soket.io": "^0.0.1-security",
@@ -267,7 +266,8 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "socket.io": "^4.4.1"
   },
   "scripts": {
     "test": "jest --forceExit"
