@@ -20,6 +20,9 @@
 # UML :
 ![](./class12.png)
 
+# Terminal Output:
+![](./socketTaskImg.png)
+
 
 # Links:
 * [PR link](https://github.com/ibrahimalaqoul/CAP-socket.io/pull/6);
